@@ -1,0 +1,40 @@
+* {
+	padding: 0;
+	margin: 0;
+	}
+body {
+    background: url(../images/black-grunge.jpg);
+    background-size: cover;
+    color: #FFF;
+    font-family: Andale Mono, sans-serif;
+    padding: 25px 50px 75px 100px;
+    margin: 100px 150px 100px 80px;
+}
+h1 {
+	font-size: 60px;
+	font-weight: 200;
+	text-transform: uppercase;
+	text-align: left;
+	letter-spacing: 3px;
+	padding: 25px 50px 75px 100px;
+}
+p {
+	font-size: 54px;
+	font-weight: 200;
+	text-align: left;
+	padding: 25px 50px 15px 100px;
+}
+ul {
+	font-size: 42px;
+	font-weight: 200;
+	text-align: left;
+	padding: 15px 50px 15px 100px;
+	list-style-type: none;
+}
+a {
+	color: #FFF;
+	font-family: Andale Mono, sans-serif;font-size: 42px;
+	font-weight: 200;
+	text-align: left;
+	padding: 200px 50px 15px 100px;
+}
