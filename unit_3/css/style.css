@@ -3,9 +3,9 @@
 	margin: 0;
 	}
 body {
-    background: url(../images/black-grunge.jpg);
+    background: white;
     background-size: cover;
-    color: #FFF;
+    color: black;
     font-family: Andale Mono, sans-serif;
     padding: 25px 50px 75px 100px;
     margin: 100px 150px 100px 80px;
@@ -32,7 +32,7 @@ ul {
 	list-style-type: none;
 }
 a {
-	color: #FFF;
+	color: black;
 	font-family: Andale Mono, sans-serif;font-size: 42px;
 	font-weight: 200;
 	text-align: left;
