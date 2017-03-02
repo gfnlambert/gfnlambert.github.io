@@ -23,6 +23,7 @@ p {
 	font-size: 14px;
 	line-height: 150%;
 	padding: 10px 10px 10px 0px;
+	max-width: 450px;
 }
 ul {
 	font-size: 20px;
@@ -33,4 +34,17 @@ a {
 	color: black;
 	font-size: 20px;
 	text-align: left;
+}
+
+header {
+    background-color: #FFED74;
+}
+nav {
+    background-color: #E8C66A;
+}
+main {
+    background-color: #FFC675;
+}
+section {
+    background-color: #E89C6C;
 }
