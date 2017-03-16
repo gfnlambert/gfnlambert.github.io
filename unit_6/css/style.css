@@ -14,10 +14,13 @@ body {
     line-height: 200%
 }
 nav {
+	width: 50%;
 	float: right;
-	padding-right: 10px;
-	border-right: 1px;
-	border-right-color: #000;
+}
+nav a {
+	display: inline-block;
+	margin-left: 10px;
+	border-left: 1px solid #000;
 }
 nav a:hover {color: #ffdd00;}
 h1 {
@@ -27,12 +30,14 @@ h1 {
 	line-height: 200%
 }
 img {
-	width: 50%;
-	max-width: 50%;
+	width: 100%;
+	max-width: 100%;
 	display: block;
 }
-header img {
+#logo {
+	width: 50%;
 	max-width: 300px;
+	float: left;
 }
 p {
 	font-size: 14px;
@@ -49,20 +54,15 @@ a {
 	font-size: 20px;
 	text-align: left;
 }
-#three_column {
-    padding: 20px;
+.pad-left-right {
+	padding-left: 10px;
+	padding-right: 10px;
 }
-
-#left {
-    padding: 5px;
-    float: left;
-    width: 50%;
-}
-
-#right {
-    padding: 5px;
-    float: right;   
-    width: 50%;
+.thumbnail {
+	display: block;
+	width: 25%;
+	float: left;
+	padding: 10px;
 }
 .clearfix:after {
     visibility: hidden;
