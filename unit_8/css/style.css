@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Barrio');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	}
+body {
+    background: white;
+    background-size: cover;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    padding: 50px;
+    line-height: 200%
+}
+nav {
+	width: 50%;
+	float: right;
+}
+nav a {
+	display: inline-block;
+	padding-right: 10px;
+}
+nav a:hover {
+	color: #ffdd00;
+}
+h1 {
+	font-family: 'Barrio', cursive;
+	font-size: 36px;
+	text-align: left;
+	line-height: 120%
+}
+img {
+	width: 100%;
+	max-width: 100%;
+	display: block;
+}
+#logo {
+	width: 50%;
+	max-width: 300px;
+	float: left;
+	padding-bottom: 30px;
+}
+#portrait {
+	width: 100%;
+	max-width: 400px;
+	padding-bottom: 30px;
+	padding-right: 30px;
+}
+#about {
+	display: inline;
+	width: 75%;
+	padding: 10px;
+}
+p {
+	font-size: 14px;
+	line-height: 150%;
+	padding: 10px 10px 10px 0px;
+}
+ul {
+	font-size: 20px;
+	text-align: left;
+	list-style-type: none;
+}
+a {
+	color: black;
+	font-size: 20px;
+	text-align: left;
+}
+.pad-left-right {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.thumbnail {
+	display: block;
+	width: 25%;
+	float: left;
+	padding: 10px;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.two-col {
+	float:left;
+	width:50%;
+}
+@media only screen and (max-width: 800px) {
+	nav {
+    	float: none;
+    	width: 100%;
+  	}
+  	nav a {
+		margin: 0 1.6em .75em 0;
+	}
+	.thumbnail {
+		display: block;
+		width: 100%;
+		float: none;
+		padding: 10px;
+	}
+	#logo {
+		width: 100%;
+		float: none;
+	}
+	#portrait {
+		width: 100%;
+		float: none;
+	}
+}
+@media only screen and (max-width: 480px) {
+  	h1, nav a{
+	    display: block;
+	    text-align: center;
+  	}
+  	nav a{
+    	float: none;
+    	font-size: 1em;
+  	}
+  	.two-col {
+		width: 100%;
+		float: none;
+	}
+ }
+	
